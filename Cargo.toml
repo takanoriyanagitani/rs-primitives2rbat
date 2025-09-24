@@ -3,6 +3,12 @@ name = "rs-primitives2rbat"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert primitive data types to Apache Arrow record batches"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-primitives2rbat"
+documentation = "https://docs.rs/rs-primitives2rbat/latest"
+keywords = ["arrow", "conversion", "integer", "raw"]
+
 [dependencies.serde]
 version = "1"
 default-features = false
